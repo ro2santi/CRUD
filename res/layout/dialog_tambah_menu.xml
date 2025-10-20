@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Menu Baru"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_nama_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Menu (cth: Es Kopi Susu)"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/et_harga_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga (cth: 25000)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_url_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL Gambar (dari Canva/Cloud)"
+        android:inputType="textUri" />
+</LinearLayout>
